@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* How to customize an existing theme? */
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  --color-primary: purple;
+  --color-secondary: teal;
+}
+
+.btn-primary {
+  background-image: linear-gradient(to right, #632EE3, #9F62F2) !important;
+  border: none !important;
+  color: white !important;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}

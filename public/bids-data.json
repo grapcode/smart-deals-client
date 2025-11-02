@@ -1,0 +1,102 @@
+[
+  {
+    "_id": "b001",
+    "product": "6720a1f4c0010001",
+    "buyer_image": "https://i.ibb.co/buyer1.jpg",
+    "buyer_name": "Rafsan Ahmed",
+    "buyer_contact": "+8801711445566",
+    "buyer_email": "rafsan.buyer@gmail.com",
+    "bid_price": 87000,
+    "status": "pending"
+  },
+  {
+    "_id": "b002",
+    "product": "6720a1f4c0010003",
+    "buyer_image": "https://i.ibb.co/buyer2.jpg",
+    "buyer_name": "Nasrin Akter",
+    "buyer_contact": "+8801788112233",
+    "buyer_email": "nasrin@example.com",
+    "bid_price": 48000,
+    "status": "confirmed"
+  },
+  {
+    "_id": "b003",
+    "product": "6720a1f4c0010004",
+    "buyer_image": "https://i.ibb.co/buyer3.jpg",
+    "buyer_name": "Sabbir Rahman",
+    "buyer_contact": "+8801999776655",
+    "buyer_email": "sabbir@motorbd.com",
+    "bid_price": 130000,
+    "status": "pending"
+  },
+  {
+    "_id": "b004",
+    "product": "6720a1f4c0010006",
+    "buyer_image": "https://i.ibb.co/buyer4.jpg",
+    "buyer_name": "Farhana Islam",
+    "buyer_contact": "+8801700112233",
+    "buyer_email": "farhana@gmail.com",
+    "bid_price": 58000,
+    "status": "confirmed"
+  },
+  {
+    "_id": "b005",
+    "product": "6720a1f4c0010009",
+    "buyer_image": "https://i.ibb.co/buyer5.jpg",
+    "buyer_name": "Mahir Chowdhury",
+    "buyer_contact": "+8801744009911",
+    "buyer_email": "mahir.c@gmail.com",
+    "bid_price": 88000,
+    "status": "pending"
+  },
+  {
+    "_id": "b006",
+    "product": "6720a1f4c0010011",
+    "buyer_image": "https://i.ibb.co/buyer6.jpg",
+    "buyer_name": "Lubna Sultana",
+    "buyer_contact": "+8801711332255",
+    "buyer_email": "lubna@coolmail.com",
+    "bid_price": 42000,
+    "status": "pending"
+  },
+  {
+    "_id": "b007",
+    "product": "6720a1f4c0010013",
+    "buyer_image": "https://i.ibb.co/buyer7.jpg",
+    "buyer_name": "Rony Hasan",
+    "buyer_contact": "+8801799112233",
+    "buyer_email": "rony.hasan@gmail.com",
+    "bid_price": 28000,
+    "status": "confirmed"
+  },
+  {
+    "_id": "b008",
+    "product": "6720a1f4c0010014",
+    "buyer_image": "https://i.ibb.co/buyer8.jpg",
+    "buyer_name": "Samiul Karim",
+    "buyer_contact": "+8801711998844",
+    "buyer_email": "samiulkarim@bikes.com",
+    "bid_price": 96000,
+    "status": "pending"
+  },
+  {
+    "_id": "b009",
+    "product": "6720a1f4c0010015",
+    "buyer_image": "https://i.ibb.co/buyer9.jpg",
+    "buyer_name": "Faysal Ahmed",
+    "buyer_contact": "+8801766889900",
+    "buyer_email": "faysal.a@gmail.com",
+    "bid_price": 88000,
+    "status": "pending"
+  },
+  {
+    "_id": "b010",
+    "product": "6720a1f4c0010018",
+    "buyer_image": "https://i.ibb.co/buyer10.jpg",
+    "buyer_name": "Taslima Akter",
+    "buyer_contact": "+8801999005544",
+    "buyer_email": "taslima@printtech.com",
+    "bid_price": 8500,
+    "status": "confirmed"
+  }
+]
