@@ -18,13 +18,17 @@ const ProductDetails = () => {
 
   // bid history
   useEffect(() => {
-    fetch(`http://localhost:5000/products/bids/${productId}`)
+    fetch(`http://localhost:5000/products/bids/${productId}`, {
+      headers: {
+        authorization: `Bearer ${user.accessToken}`,
+      },
+    })
       .then((res) => res.json())
       .then((data) => {
         console.log('bids for this product', data);
         setBids(data);
       });
-  }, [productId]);
+  }, [productId, user]);
 
   const handleBidModalOpen = () => {
     bidModalRef.current.showModal();
@@ -236,7 +240,7 @@ const ProductDetails = () => {
             <tbody>
               {/* row 1 */}
               {bids.map((bid, index) => (
-                <tr>
+                <tr key={index}>
                   <th>{index + 1}</th>
                   <td>
                     <div className="flex items-center gap-3">

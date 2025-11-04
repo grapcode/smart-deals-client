@@ -45,6 +45,24 @@ const AuthProvider = ({ children }) => {
     const unsubscribe = onAuthStateChanged(auth, (currUser) => {
       // console.log(user);
       setUser(currUser);
+
+      if (currUser) {
+        const loggedUser = { email: currUser.email };
+        fetch('http://localhost:5000/getToken', {
+          method: 'POST',
+          headers: {
+            'content-type': 'application/json',
+          },
+          body: JSON.stringify(loggedUser),
+        })
+          .then((res) => res.json())
+          .then((data) => {
+            console.log('after getting token', data);
+            localStorage.setItem('token', data.token);
+          });
+      } else {
+        localStorage.removeItem('token');
+      }
       setLoading(false);
     });
     return () => {
